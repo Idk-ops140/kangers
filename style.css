@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif; /* Or a more "2000s" font like Verdana */
+    background-color: #fff; /* White background */
+    color: #c00; /* Red text */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #c00; /* Red header */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+#logo {
+    height: 50px; /* Adjust as needed */
+    margin-right: 20px;
+    vertical-align: middle;
+}
+
+#search-container {
+    margin-top: 10px;
+}
+
+#search-input {
+    padding: 5px;
+    border: 1px solid #900; /* Darker red border */
+    border-radius: 3px; /* Slightly rounded corners */
+}
+#search-button{
+    padding: 5px;
+    background-color: #fff;
+    border-radius: 2px;
+    color:#c00
+}
+
+main {
+    padding: 20px;
+}
+
+#upload-section {
+    margin-bottom: 30px;
+    border: 2px solid #c00;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+#upload-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#upload-form input[type="text"],
+#upload-form input[type="file"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #900;
+    border-radius: 3px;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+#upload-form button[type="submit"] {
+    background-color: #c00;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#video-list {
+    border: 2px dashed #c00; /* Dashed border for a retro feel */
+    padding: 15px;
+    border-radius: 5px;
+}
+
+#videos-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Responsive grid */
+    gap: 20px;
+}
+
+.video-item {
+    border: 1px solid #900;
+    padding: 10px;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.video-item h3 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    color: #c00;
+}
+
+.video-item video {
+    width: 100%;
+    max-height: 200px; /* Limit video height */
+}
+#message{
+    text-align: center;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #eee; /* Light gray footer */
+    color: #333;
+    margin-top: 20px;
+}
